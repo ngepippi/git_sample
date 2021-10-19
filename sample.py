@@ -1,5 +1,8 @@
+def add_(a,b):
+    return a+b
+
 if __name__ == "__main__":
     a = 10 
     b = 20
 
-    print(a+b)
+    print(add_(a,b))
